@@ -79,7 +79,7 @@ if __name__ == '__main__':
         print(uploadFile(server, usrFile, usrDesc, usrPass))
         
         totaltime = time.time() - starttime
-        print('{~} Estimated time: '+str(totaltime))
+        print('{~} Elapsed time: '+str(totaltime))
     except KeyboardInterrupt:
         print('\nKeyboardInterrupt')
         quit()
